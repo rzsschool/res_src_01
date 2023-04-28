@@ -8,7 +8,7 @@ def git_push():
     os.system('git add .')
     print('***hello***')
     os.system('git commit -m "add first news"')
-    # os.system('git push')
+    os.system('git push')
 
 
 git_push()
